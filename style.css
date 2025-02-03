@@ -150,6 +150,7 @@ section{
 }
 .section-container{
     display:flex;
+    justify-content: space-evenly;
 }
 .section__pic-container {
     display: flex;
@@ -173,9 +174,11 @@ section{
     text-align: center;
 }
 
-.icon{
+.icons{
     cursor:pointer; 
+    height: 2rem;
 }
+
 #profile{
     display:flex;
     justify-content: center;
@@ -183,3 +186,54 @@ section{
     height: 80vh;
 
 }
+.title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#social{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+/*BUTTONS*/
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+}
+
+.btn{
+    font-weight: 600;
+    transition: all 200ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+
+
+.btn-color-2, .btn-color-1{
+    border:rgb(53,53,53) .1rem solid;
+}
+.btn-color-1, 
+.btn-color-2:hover{
+    background: black;
+    color:white;
+}
+.btn-color-1:hover{
+background: black;
+}
+
+.btn-color-2{
+    background: none;
+}
+.btn-color-2:hover{
+    border: rgb(255, 255, 255) .1rem solid;
+}
+
+
+
