@@ -117,11 +117,69 @@ a:hover {
 
 .menu-links.open {
     max-height: 300px;
-    transition: all .8s ease-in-out ;
+}
+/* rotates first and last child to form an x, genius */
+.hamburger-icon.open span:first-child  {
+    transform: rotate(45deg) translate(10px, 5px);
+}
+.hamburger-icon.open span:nth-child(2)  {
+opacity:0
+}
+.hamburger-icon.open span:last-child  {
+    transform: rotate(-45deg) translate(10px, -5px);
+}
+/*
+.hamburger-icon span :first-child {
+    transform: none;
+}
+.hamburger-icon span :first-child {
+    opacity: 1;
+}
+.hamburger-icon span :first-child {
+    transform: none;
+}
+*/
+
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
 
 }
-.hamburger-icon.open {
-    max-height: 300px;
-    transition: all .8s ease-in-out ;
+.section-container{
+    display:flex;
+}
+.section__pic-container {
+    display: flex;
+    position: relative;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;   
+}
+
+.section__pic-container img {
+    border-radius: 50%;
+}
+.section__text{
+    align-self: center;
+    text-align: center;
+}
+.section__text p{
+    font-weight: 600;
+}
+.section__text__p1{
+    text-align: center;
+}
+
+.icon{
+    cursor:pointer; 
+}
+#profile{
+    display:flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
 
 }
