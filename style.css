@@ -150,7 +150,6 @@ section{
 }
 .section-container{
     display:flex;
-    justify-content: space-evenly;
 }
 .section__pic-container {
     display: flex;
@@ -160,7 +159,7 @@ section{
     margin: auto 0;   
 }
 
-.section__pic-container img {
+#profile-pic {
     border-radius: 50%;
 }
 .section__text{
@@ -234,6 +233,29 @@ background: black;
 .btn-color-2:hover{
     border: rgb(255, 255, 255) .1rem solid;
 }
+/*ABOUT SECTION*/
 
+.about-containers{
+    gap:2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 
+}
+
+.about-details-container{
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers,.about-details-container {
+    display: flex;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+.arrow {
+position: absolute;
+right: 5rem;
+}
 
