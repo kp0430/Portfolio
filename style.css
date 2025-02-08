@@ -150,6 +150,8 @@ section{
 }
 .section-container{
     display:flex;
+    gap: 10px;
+    height: 80%;
 }
 .section__pic-container {
     display: flex;
@@ -258,4 +260,15 @@ background: black;
 position: absolute;
 right: 5rem;
 }
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) .1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
 
