@@ -1,3 +1,12 @@
+@media screen and (max-width: 1400px){
+    #profile{
+        height: 83vh;
+        margin-bottom: 0;
+    }
+    .about-containers{
+        flex-wrap: wrap ;
+    }       
+    }
 @media screen and (max-width: 1200px){
 /* When width < 1200px, do not display desktop screen> */
     #desktop-nav{
@@ -5,5 +14,9 @@
     }
     #hamburger-nav {
         display:flex;
+    }
+    #experience, .experience-details-container{
+        margin-top: 2rem;
+
     }
 }
