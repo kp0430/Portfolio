@@ -128,17 +128,6 @@ opacity:0
 .hamburger-icon.open span:last-child  {
     transform: rotate(-45deg) translate(10px, -5px);
 }
-/*
-.hamburger-icon span :first-child {
-    transform: none;
-}
-.hamburger-icon span :first-child {
-    opacity: 1;
-}
-.hamburger-icon span :first-child {
-    transform: none;
-}
-*/
 
 section{
     padding-top: 4vh;
@@ -163,6 +152,7 @@ section{
 
 #profile-pic {
     border-radius: 50%;
+    transition: display 0.3s ease-in-out;
 }
 .section__text{
     align-self: center;
