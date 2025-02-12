@@ -39,7 +39,6 @@ nav {
     gap: 1.7rem;
     list-style-type: none;
     font-size: 1.5rem;
-
 }
 
 a {
@@ -117,6 +116,7 @@ a:hover {
 
 .menu-links.open {
     max-height: 300px;
+    z-index: 1000;
 }
 /* rotates first and last child to form an x, genius */
 .hamburger-icon.open span:first-child  {
@@ -135,6 +135,7 @@ section{
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
+    z-index: 1;
 
 }
 .section-container{
@@ -148,11 +149,14 @@ section{
     height: 400px;
     width: 400px;
     margin: auto 0;   
+    z-index: 0;
 }
 
 #profile-pic {
     border-radius: 50%;
     transition: display 0.3s ease-in-out;
+    display:block;
+    z-index: 0;
 }
 .section__text{
     align-self: center;
